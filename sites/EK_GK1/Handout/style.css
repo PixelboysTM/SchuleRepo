@@ -1,44 +1,47 @@
 * {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 body {
-    background-color: #6565AB;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6c/Yukon_5_finger_rapids.JPG");
-    background-size: cover;
+	background-color: #6565ab;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6c/Yukon_5_finger_rapids.JPG");
+	background-size: cover;
 }
 
 header {
-    background-color: #8357BE;
-    height: 10vh;
-    text-align: center;
-    padding-top: 15px;
-    border-bottom: #000 solid 1.5px;
+	background-color: #8357be;
+	height: 10vh;
+	text-align: center;
+	padding-top: 15px;
+	border-bottom: #000 solid 1.5px;
 }
 
 .handout {
-
-    width: 60%;
-    margin-left: 20%;
-    background-color: #44525D;
-    padding: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-    /* box-shadow: 8px 8px #0000004f; */
-    padding-bottom: 20px;
-    gap
+	width: 60%;
+	margin-left: 20%;
+	background-color: #44525d;
+	padding: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+	/* box-shadow: 8px 8px #0000004f; */
+	padding-bottom: 20px;
 }
 
 .handout h4 {
-    font-size: x-large;
-    border-bottom: 1px solid #000;
-    padding-top: 10px;
-    padding-bottom: 10px;
+	font-size: x-large;
+	border-bottom: 1px solid #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .handout h3 {
-    font-size: xxx-large;
-    border-bottom: 1px solid #000;
+	font-size: xx-large;
+	border-bottom: 1px solid #000;
+}
+a {
+	text-decoration: none;
+	font-size: x-large;
+	color: rgb(79, 45, 122);
 }
